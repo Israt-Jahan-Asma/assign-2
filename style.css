@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .spin-slow {
+    animation-duration: 7s !important;
+  }
+}
