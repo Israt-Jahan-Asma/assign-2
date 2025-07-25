@@ -57,21 +57,20 @@
             <h4 class="font-medium mt-8 max-md:mt-4">Lily Blossom</h4>
             <h5 class="font-bold ">20 USD</h5>
             <!-- <button class="text-white bg-[#E95A08] text-[16px] px-[80px] py-[13px] mt-5 max-md:px-[40px] max-sm:px-[20px]">ADD TO CART </button> -->
-        <div class="relative">
-  <!-- Hidden Checkbox -->
-  <input type="checkbox" id="cart-toggle-1" class="hidden peer">
+          <div class="relative">
+            <!-- Hidden Checkbox -->
+            <input type="checkbox" id="cart-toggle-1" class="hidden peer">
 
-  <!-- Button -->
-  <label for="cart-toggle-1" class="cursor-pointer inline-block text-white bg-[#E95A08] text-[16px] px-[80px] py-[13px] mt-5 max-md:px-[40px] max-sm:px-[20px]">
-    ADD TO CART
-  </label>
+            <!-- Button -->
+            <label for="cart-toggle-1" class="cursor-pointer inline-block text-white bg-[#E95A08] text-[16px] px-[80px] py-[13px] mt-5 max-md:px-[40px] max-sm:px-[20px]">
+                ADD TO CART
+            </label>
 
-  <!-- Fake Alert (shows only when button is clicked) -->
-  <div class="hidden peer-checked:block text-green-600 font-semibold mt-3">
-    ✅ Flower Added to Cart
-  </div>
-</div>
-
+            <!-- Fake Alert (shows only when button is clicked) -->
+            <div class="hidden peer-checked:block text-green-600 font-semibold mt-3">
+                ✅ Flower Added to Cart
+            </div>
+        </div>   
             
         </div>
         <div>
@@ -266,7 +265,7 @@
     <div class="flex flex-col gap-4">
 
       <!-- Bloom Plant -->
-      <div class="relative h-[200px] bg-cover bg-center rounded-[14px] bg-[url(/assets/deal-bloom.png)]">
+      <div class="relative h-[200px] bg-cover bg-center rounded-[14px] bg-[url(assets/deal-bloom.png)]">
         <div class="absolute inset-0 bg-[#00000066] rounded-[14px] flex flex-col items-center justify-center text-white text-center ">
           <h4 class="text-[20px] font-[Noto] font-semibold">60% Off | Bloom Plant</h4>
           <a href="#" class="inline-block text-white text-[16px] font-semibold underline font-[inter]">Shop Now</a>
@@ -274,7 +273,7 @@
       </div>
 
       <!-- Ana Plant -->
-      <div class="relative h-[200px] bg-cover bg-center rounded-[14px] bg-[url(/assets/deal-ana.png)]">
+      <div class="relative h-[200px] bg-cover bg-center rounded-[14px] bg-[url(assets/deal-ana.png)]">
         <div class="absolute inset-0 bg-[#00000066] rounded-[14px] flex flex-col items-center justify-center text-white text-center ">
           <h4 class="text-[20px] font-[Noto] font-semibold">30% Off | Ana Plant</h4>
           <a href="#" class="inline-block text-white text-[16px] font-semibold underline font-[inter]">Shop Now</a>
@@ -284,7 +283,7 @@
 
     <!-- Right Column (Zabo Plant) spans 2 columns on desktop) -->
     <div class="md:col-span-2">
-      <div class="relative h-full h-[408px] max-md:h-[200px] bg-cover bg-center rounded-[22px] bg-[url(/assets/deal-zabo.png)] ">
+      <div class="relative h-full h-[408px] max-md:h-[200px] bg-cover bg-center rounded-[22px] bg-[url(assets/deal-zabo.png)] ">
         <div class="absolute inset-0 bg-[#00000066] rounded-[22px] flex flex-col items-center justify-center text-white text-center ">
           <h4 class="text-[40px] font-[Noto] font-bold max-md:text-[20px]">25% Off | Zabo Plant</h4>
           <a href="#" class="inline-block text-white text-[28px] max-md:text-[16px] font-semibold underline font-[inter]" >Shop Now</a>
@@ -298,7 +297,7 @@
 
    <!-- subscribe section  -->
 
-    <section class="w-full h-[533px] max-md:h-[276px] bg-[url('/assets/news-letter-bg.png')] bg-cover bg-center flex items-center justify-center ">
+    <section class="w-full h-[533px] max-md:h-[276px] bg-[url('assets/news-letter-bg.png')] bg-cover bg-center flex items-center justify-center ">
   <div class="text-center text-white ">
     <!-- Heading -->
     <h2 class="font-[noto] text-[50px] font-bold mb-6 max-md:text-[20px]"> Join the colorful Bunch </h2>
@@ -319,9 +318,9 @@
     <!-- footer section -->
     <footer class="w-full min-h-[348px] flex items-center ">
     
-        <section class="max-w-[1140px] grid grid-flow-col auto-cols-max gap-[110px] justify-center items-start mx-auto max-md:grid-flow-row max-md:gap-5 max-md:px-5 max-md:mx-0 max-md:py-12.5">
+        <section class="max-w-[1140px] grid grid-flow-col auto-cols-max gap-[110px] justify-center items-start mx-auto max-md:grid-flow-row max-md:gap-5 max-md:px-5 max-md:mx-0 max-md:py-12.5 overflow-x-hidden">
 
-        <div class="max-w-[359px] ">
+        <div class="max-w-[359px]  min-w-0">
             <a href="#"><img class=" w-[135px] h-[82px] " src="assets/logo.png" alt=""></a>
             <p class="text-[#00000080] font-[Inter] text-[22px] font-normal mt-4 max-md:text-[16px]"> Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
         </div>
